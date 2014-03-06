@@ -203,12 +203,12 @@ http://creativecommons.org/about/licenses/
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename image/cc-by-nc-sa_340x340.png
+	filename ../SLiMS-5-En-Documentation/image/cc-by-nc-sa_340x340.png
 	scale 30
 
 \end_inset
