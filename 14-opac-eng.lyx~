@@ -780,7 +780,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/opac-memberlogin.png
+	filename image/opac-memberlogin.png
 	scale 120
 	rotateOrigin center
 
@@ -796,6 +796,44 @@ status open
 
 \lang bahasa
 Member Login Menu Display
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image/opac-login-logout.png
+	scale 120
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member Login/logout Display
 \end_layout
 
 \end_inset
@@ -856,7 +894,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/opac-memberarea.png
+	filename image/opac-memberarea.png
 	scale 80
 	rotateOrigin center
 
@@ -872,6 +910,44 @@ status open
 
 \lang bahasa
 Member Information, Loan and borrowing history + download list
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image/opac-history-basket-pword.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Historical lending information , Title basket and Password change
 \end_layout
 
 \end_inset
@@ -923,15 +999,15 @@ Informasi Sejarah peminjaman, keranjang judul dan ubah password
 \end_layout
 
 \begin_layout Standard
-In addition to loan summaries and download facilities, there is a feature
+In addition to Loan summaries and download facilities, there is a feature
  called Title Basket.
  This basket can be filled according to titles and will attract members
  in the message.
 \end_layout
 
 \begin_layout Standard
-The method of filling it is, by heading to the OPAC page, and displaying
- the following:
+The method of filling it is by heading to the OPAC page, and displaying
+ a catalog list.
 \end_layout
 
 \begin_layout Standard
@@ -944,7 +1020,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/opac-keranjang-depan.png
+	filename image/opac-keranjang-depan.png
 	scale 80
 	rotateOrigin center
 
@@ -973,7 +1049,7 @@ Filling Title Basket
 \end_layout
 
 \begin_layout Standard
-A display as above appears, if you login as a member.
+A display similar to above appears, if you login as a member and do a search.
  To select a title, please tick the box at the end of each title, then click
  "Put marked selection into basket".
  The results are as follows.
@@ -989,7 +1065,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/opac-keranjang-isi.png
+	filename image/opac-keranjang-isi.png
 	scale 80
 	rotateOrigin center
 
@@ -1044,7 +1120,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/opac-sent-pesanan.png
+	filename image/opac-sent-pesanan.png
 	scale 80
 	rotateOrigin center
 
@@ -1086,7 +1162,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/opac-reserv-email.png
+	filename image/opac-reserv-email.png
 	scale 70
 	rotateOrigin center
 
@@ -1102,6 +1178,135 @@ status open
 
 \lang bahasa
 Requests received in librarians e-mail 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Comment on Bibliography feature
+\end_layout
+
+\begin_layout Standard
+This feature is used to provide comments on the bibliography.
+ If a member wishes to provide a comment on a title they must first login.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image/opac-comment.png
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+OPAC comment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Boolean Logic in the OPAC 
+\end_layout
+
+\begin_layout Standard
+To display the librarian page, simply click the "librarian" on the OPAC
+ ( when using Cendana default template ).
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image/opac-librarian1.png
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+OPAC - show Librarian profile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image/opac-librarianprofile.png
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+OPAC - Librarian profiles
 \end_layout
 
 \end_inset
