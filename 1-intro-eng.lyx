@@ -70,7 +70,7 @@ English language manual for SLiMS-7
 status open
 
 \begin_layout Plain Layout
-* written with LyX 2.05
+* written with LyX 2.0.6
 \end_layout
 
 \end_inset
@@ -334,22 +334,30 @@ Sysconfig
 
 \begin_layout Standard
 \align left
-\begin_inset Flex URL
-status open
 
-\begin_layout Plain Layout
-
+\family typewriter
 sysconfig.local.inc.php
-\end_layout
-
-\end_inset
-
-, is a file that does the same configuration as sysconfig.inc.php.
- However, for local changes, it's recommended to just change the file sysconfig.l
-ocal.inc.php .
- Logically, if there are two common configurations in the two files , SLiMS
- will read sysconfig.local.inc.php.
- as overriding sysconfig.inc.php.
+\family default
+ is a file that does the same configuration as 
+\family typewriter
+sysconfig.inc.php
+\family default
+.
+ However, for local changes, it's recommended to just change the file 
+\family typewriter
+sysconfig.local.inc.php
+\family default
+ .
+ Logically, if there are two common configurations in the two files, SLiMS
+ will read 
+\family typewriter
+sysconfig.local.inc.php
+\family default
+ as overriding 
+\family typewriter
+sysconfig.inc.php
+\family default
+ .
 \end_layout
 
 \begin_layout Standard
@@ -359,55 +367,23 @@ For example:
 \begin_layout Standard
 \align left
 If, in the file 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
+\family typewriter
 sysconfig.inc.php
-\end_layout
-
-\end_inset
-
- there is a line 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
+\family default
+ there is a line: 
+\family typewriter
 $sysconf['ucs']['enable'] = false;
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \align left
-And in the file 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-sysconfig.local.inc.php
-\end_layout
-
-\end_inset
-
- there is a line 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
+And in the file
+\family typewriter
+ sysconfig.local.inc.php
+\family default
+ there is a line: 
+\family typewriter
 $sysconf['ucs']['enable'] = true;
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -560,7 +536,7 @@ Browser recommendation:
 \end_layout
 
 \begin_layout Standard
-Browsers / Web Browsers for SLiMS are: 
+Browsers / Web Browsers suitable for SLiMS are: 
 \end_layout
 
 \begin_layout Standard
@@ -605,7 +581,9 @@ This document has been translated from Bahasa Indonesia by a native speaker
  document and whenever uncertain as to Google Translate's output, I cross-checke
 d by accessing an operational Senayan SLiMS 7 ( Cendana ) installation.
  The graphic screen-shots are taken directly from the Indonesian language
- manual, and occasionally reflect this.
+ manual, and occasionally reflect this, both in language and the fact that
+ some screenshots are from earlier versions where they illustrate areas
+ that haven't functionally changed
 \end_layout
 
 \begin_layout Standard

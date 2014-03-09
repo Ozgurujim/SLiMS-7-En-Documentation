@@ -316,7 +316,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/rep-pie2.png
+	filename image/rep-pie2.png
 	scale 50
 
 \end_inset
@@ -408,7 +408,7 @@ Commencing with the Senayan3-Stable10 Report module, there is a development
 \begin_layout Standard
 In the folder 
 \family typewriter
-/senayan3-stable10/admin/modules/reporting/custom/
+/slims7_cendana/admin/modules/reporting/custom/
 \family default
  there exists a file, 
 \family typewriter
@@ -865,7 +865,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/rep-loanhys.png
+	filename image/rep-loanhys.png
 	scale 40
 
 \end_inset

@@ -91,11 +91,11 @@ The OPAC (Online Public Access Catalog), is a search tool that is targeted
  To narrow the search, provide the optional Location, Collection Type and
  GMD.
  Information contained in Library Information can be tailored to libraries/insti
-tutions 
+tutions by editing file 
 \family typewriter
 libnfo.inc.php
 \family default
- by editing files located in the 
+ located in the 
 \family typewriter
 /lib
 \family default
@@ -368,9 +368,9 @@ Calling RSS (Really Simple Syndication)
 \end_layout
 
 \begin_layout Standard
-RSS is a feature that can show information collection at Slims and tacked
+RSS is a feature that can show information collection at SLiMS and tacked
  on another application.
- RSS Slims can be accessed via the URL:
+ RSS SLiMS can be accessed via the URL:
 \begin_inset Flex URL
 status collapsed
 
@@ -427,7 +427,7 @@ Using the Voice Search feature
 
 \begin_layout Standard
 Using Voice on SLiMS can only be done if the browser used is Google Chrome.
- In addition, the SLiMS server shall be connected to the internet and there
+ In addition, the SLiMS server must be connected to the internet and there
  must be a microphone on the computer being used.
  If these conditions are met, then in the Search box that is opened when
  using Chrome, a picture of a microphone will be displayed.

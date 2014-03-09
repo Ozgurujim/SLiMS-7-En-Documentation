@@ -100,7 +100,11 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Copy file psenayan*.zip to the root directory/folder
+Copy file 
+\family typewriter
+psenayan*.zip
+\family default
+ to the root directory/folder
 \end_layout
 
 \end_inset
@@ -125,7 +129,11 @@ psenayan-x.x.zip
 
 \end_inset
 
- (e.g psenayan-3.0.zip - please get the latest release of Psenayan at 
+ (e.g 
+\family typewriter
+psenayan-7-cendana.zip
+\family default
+ - please get the latest release of Psenayan at 
 \begin_inset Flex URL
 status open
 
@@ -171,7 +179,9 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Extract psenayan*.zip
+Extract 
+\family typewriter
+psenayan*.zip
 \end_layout
 
 \end_inset
@@ -185,7 +195,11 @@ Extract psenayan*.zip
 \end_layout
 
 \begin_layout Standard
-Extract the file psenayan*.zip straight to the root directory.
+Extract the file 
+\family typewriter
+psenayan*.zip
+\family default
+ straight to the root directory.
  If you have installed a utility to extract compressed files such as Winzip
  or Winrar, usually right-clicking on the file will bring up the option
  "Extract Here".
@@ -217,7 +231,11 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Folder psenayan has been formed
+Folder 
+\family typewriter
+psenayan
+\family default
+ has been formed
 \end_layout
 
 \end_inset
@@ -231,7 +249,11 @@ Folder psenayan has been formed
 \end_layout
 
 \begin_layout Standard
-The folder "psenayan" will automatically be created .
+The folder "
+\family typewriter
+psenayan
+\family default
+" will automatically be created .
  Next go into that directory 
 \end_layout
 
@@ -260,7 +282,9 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Files and folders contained in "psenayan"
+Files and folders contained in 
+\family typewriter
+psenayan
 \end_layout
 
 \end_inset
@@ -274,8 +298,20 @@ Files and folders contained in "psenayan"
 \end_layout
 
 \begin_layout Standard
-Now run the file "apache_start.bat" and then "mysql_start.bat".
- Always run file "apache_start.bat" first (double-click on the file).
+Now run the file 
+\family typewriter
+apache_start.bat
+\family default
+ and then 
+\family typewriter
+mysql_start.bat
+\family default
+.
+ Always run file 
+\family typewriter
+apache_start.bat
+\family default
+ first (double-click on the file).
 \end_layout
 
 \begin_layout Standard
@@ -409,7 +445,11 @@ In some versions of Windows, a firewall message will appear when MySQL is
 
 \begin_layout Standard
 Next, activate the mysql database server by double-clicking on the file
- "Mysql_start.bat".
+ 
+\family typewriter
+Mysql_start.bat
+\family default
+.
  If Windows Firewall is active, a popup "Windows Security Alert" will usually
  appear.
  Click the "Unblock" option to allow the computer to run the MySQL database
@@ -461,8 +501,18 @@ If the MySQL server is successfully activated, a window will appear with
 \end_layout
 
 \begin_layout Standard
-In addition to double-clicking each of the files (apache_start.bat and mysql_star
-t.bat), also these batch files can be run by double-clicking psenayan_start.bat
+In addition to double-clicking each of the files (
+\family typewriter
+apache_start.bat
+\family default
+ and 
+\family typewriter
+mysql_start.bat
+\family default
+), also these batch files can be run by double-clicking 
+\family typewriter
+psenayan_start.bat
+\family default
  alone.
  This file has been created here commencing with Psenayan-5
 \end_layout
@@ -521,19 +571,43 @@ http://localhost
  The Senayan application OPAC will appear.
  Now Senayan can be used.
  If you want to turn off the Apache and MySQL processes , double-click on
- the files "apache_stop.bat" and "mysql_stop.bat".
+ the files 
+\family typewriter
+apache_stop.bat
+\family default
+ and
+\family typewriter
+ mysql_stop.bat
+\family default
+.
  To get into the administration menu, please click "Librarian Login": The
  default Username= 
+\series bold
 \shape italic
 admin
+\series default
 \shape default
  and the password= 
+\series bold
 \shape italic
 admin
+\series default
 \shape default
 .
  The default username and password to log into PhpMyAdmin in Psenayan is:
- username= root and password= psenayan.
+ username=
+\series bold
+\shape italic
+ root
+\series default
+\shape default
+ and password= 
+\series bold
+\shape italic
+psenayan
+\series default
+\shape default
+.
  In Psenayan, the URL to enter in order to access phpMyAdmin is
 \begin_inset Flex URL
 status collapsed

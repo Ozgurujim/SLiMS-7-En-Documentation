@@ -370,7 +370,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/member-foto.png
+	filename image/member-foto.png
 
 \end_inset
 
@@ -403,7 +403,9 @@ To be able to take photos, do the following:
 \begin_layout Standard
 1.
  This feature is enabled by ensuring the value of $sysconf ['webcam'] =
- true; in the file sysconfig.inc.php 
+ true; in the file 
+\family typewriter
+sysconfig.inc.php 
 \end_layout
 
 \begin_layout Standard
@@ -618,7 +620,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/member-import.png
+	filename image/member-import.png
 	scale 130
 
 \end_inset

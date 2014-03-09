@@ -1009,7 +1009,11 @@ and replace /usr/bin/mysqldump with the location of the mysqldump binary
  After the mysqldump path has been set accurately, click Start New Backup
  and Senayan will back up automatically.
  The format of backup files created by Senayan is .sql in layout and named
- according to the creation date- for example: backup_20080501_123106.sql.
+ according to the creation date- for example: 
+\family typewriter
+backup_20080501_123106.sql
+\family default
+.
  This Backup file name means: made on the 1st of the month 5-year 2008,
  at 12:31:06.
 \end_layout

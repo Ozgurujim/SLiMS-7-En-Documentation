@@ -70,7 +70,7 @@ This module is accessed through this URL (adjust to your own SLiMS address):
 \end_layout
 
 \begin_layout LyX-Code
-http://localhost/slims5_meranti/?p=visitor
+http://localhost/slims7_cendana/?p=visitor
 \end_layout
 
 \begin_layout Standard
@@ -145,16 +145,10 @@ visitor.inc.php
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex URL
-status open
 
-\begin_layout Plain Layout
-
-/senayan/lib/contents/visitor.inc.php
-\end_layout
-
-\end_inset
-
+\family typewriter
+/slims7_cendana/lib/contents/visitor.inc.php
+\family default
 .
  
 \end_layout

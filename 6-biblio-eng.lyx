@@ -471,9 +471,15 @@ Image : an image file (usually of covers) that shows the appearance of the
  This feature may be used on condition that it is activated in advance,
  and there is a connection to the scanner.
  Activation of this feature is by changing the value 'false' to 'true' at
- line $sysconf ['scanners'] = True; contained in the file sysconfig.inc.php
- (It is advisable to perform Local changes in sysconfig.local.inc.php, as advised
- above) 
+ line $sysconf ['scanners'] = True; contained in the file 
+\family typewriter
+sysconfig.inc.php
+\family default
+ (It is advisable to perform local changes in 
+\family typewriter
+sysconfig.local.inc.php
+\family default
+, as noted above) 
 \end_layout
 
 \begin_layout Standard
@@ -1527,8 +1533,11 @@ P2P Service
 \end_layout
 
 \begin_layout Standard
-P2P can be configured through changes to the sysconfig.inc.php file as the
- following example demonstrates:
+P2P can be configured through changes to the 
+\family typewriter
+sysconfig.inc.php
+\family default
+ file as the following example demonstrates:
 \end_layout
 
 \begin_layout Standard
@@ -1550,7 +1559,7 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/senayan3-stable14',
+$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/slims7_cendana',
  'name' => 'SLiMS Library');
 \end_layout
 

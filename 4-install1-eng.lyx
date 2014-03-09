@@ -70,8 +70,9 @@ SLiMS has several methods of installation.
  username and password); Psenayan installation (portable senayan); and installat
 ion using the SLiMS Installer .
  Here's an explanation of each method of installation.
- Although the examples used are for the old version, the process is basically
- the same for subsequent versions of SLiMS.
+ Although the examples and graphics used are for the older versions, the
+ process is basically the same for subsequent versions of SLiMS.
+ Adjust file names accordingly.
 \end_layout
 
 \begin_layout Section
@@ -171,7 +172,11 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Put the file senayan*.tar.gz file into the web document root
+Put the file 
+\family typewriter
+senayan*.tar.gz
+\family default
+ file into the web document root
 \end_layout
 
 \end_inset
@@ -193,22 +198,37 @@ Now, place the source SLiMS web document in the root of your web server
 \begin_layout Standard
 For example: I use Ubuntu Linux and install Apache Webserver via the source
  code.
- Its web document root is located at /usr/local/apache/htdocs , while in
- OpenSUSE it's located in /srv/www.
+ Its web document root is located at 
+\family typewriter
+/usr/local/apache/htdocs
+\family default
+ , while in OpenSUSE it's located in
+\family typewriter
+ /srv/www
+\family default
+.
  If you are using xampplite in Windows, the web document root is usually
  located in 
+\family typewriter
+
 \backslash
 xampplite
 \backslash
-htdocs.
+htdocs
+\family default
+.
  Still in Windows, if you install Apache individually (not through an AMP
- package), a web document root usually is found in "Program Files
+ package), a web document root usually is found in "
+\family typewriter
+Program Files
 \backslash
 apachegroup
 \backslash
 apache
 \backslash
-htdocs" 
+htdocs
+\family default
+" 
 \end_layout
 
 \begin_layout Standard
@@ -236,7 +256,9 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Extract file senayan*.tar.gz
+Extract file
+\family typewriter
+ senayan*.tar.gz
 \end_layout
 
 \end_inset
@@ -273,8 +295,11 @@ status open
 
 \begin_layout Plain Layout
 
+\family typewriter
 \lang bahasa
-Senayan*.tar.gz extract completed
+Senayan*.tar.gz
+\family default
+ extract completed
 \end_layout
 
 \end_inset
@@ -288,7 +313,11 @@ Senayan*.tar.gz extract completed
 \end_layout
 
 \begin_layout Standard
-Extract the file senayan3-*.tar.gz in the same directory.
+Extract the file 
+\family typewriter
+senayan*-*.tar.gz
+\family default
+ in the same directory.
  In Windows you can use Winzip.
  On Linux you can use the default Linux tools.
  For example (I use Ubuntu) by running the command:
@@ -299,7 +328,9 @@ shell> sudo tar -xvxf senayan3-stable10-patch1.tar.gz
 \end_layout
 
 \begin_layout Standard
-it will create a folder/directory named senayan3-stable10
+it will create a folder/directory named 
+\family typewriter
+senayan3-stable10
 \end_layout
 
 \begin_layout Standard
@@ -341,7 +372,11 @@ Creating a database using the MySQL console
 \end_layout
 
 \begin_layout Standard
-Now go to the newly formed folder senayan3-stable10 .
+Now go to the newly formed folder 
+\family typewriter
+senayan3-stable10
+\family default
+ .
 \end_layout
 
 \begin_layout LyX-Code
@@ -522,7 +557,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../SLiMS-5-En-Documentation/image/instalasi-new2.png
+	filename image/instalasi-new2.png
 
 \end_inset
 
@@ -535,7 +570,11 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Import data.sql with PhpMyAdmin
+Import 
+\family typewriter
+data.sql
+\family default
+ with PhpMyAdmin
 \end_layout
 
 \end_inset
@@ -666,7 +705,9 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Configuring a database connection in the file sysconfig.local.inc.php
+Configuring a database connection in the file 
+\family typewriter
+sysconfig.local.inc.php
 \end_layout
 
 \end_inset
@@ -719,19 +760,44 @@ The configuration database that has been customized
 
 \begin_layout Standard
 \align left
-Now edit the sysconfig.local.inc.php 
+Now edit the 
+\family typewriter
+sysconfig.local.inc.php
+\family default
+ 
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-Starting from version Matoa, SLiMS uses sysconfic.local.inc.php for local configura
-tion.
- That is, if there is a change, or a new configuration file sysconfig.local.inc.php
+Starting from version Matoa, SLiMS uses 
+\family typewriter
+sysconfic.local.inc.php
+\family default
+ for local configuration.
+ That is, if there is a change, or a new configuration file
+\family typewriter
+ sysconfig.local.inc.php
+\family default
 , then that will be read by SLiMS first.
- Or if there are two configurations in files sysconfig.inc.php and sysconfig.local.i
-nc.php and then SLiMS will read sysconfig.local.inc.php first.
+ Or if there are two configurations in files 
+\family typewriter
+sysconfig.inc.php
+\family default
+ and 
+\family typewriter
+sysconfig.local.inc.php
+\family default
+ and then SLiMS will read 
+\family typewriter
+sysconfig.local.inc.php
+\family default
+ first.
  To add a configuration or change the local configuration, simply add/copy
- of sysconfig.inc.php only.
+ of 
+\family typewriter
+sysconfig.inc.php
+\family default
+ only.
  
 \end_layout
 
@@ -740,13 +806,19 @@ For example:
 \end_layout
 
 \begin_layout Plain Layout
-For mysqldump, in sysconfig.inc.php contents: $sysconf ['mysqldump'] = '/usr/bin/
- mysqldump'; 
+For mysqldump, in 
+\family typewriter
+sysconfig.inc.php
+\family default
+ contents: $sysconf ['mysqldump'] = '/usr/bin/ mysqldump'; 
 \end_layout
 
 \begin_layout Plain Layout
-copy the line, and paste into sysconfig.local.inc.php then adjust to the local
- conditions.
+copy the line, and paste into 
+\family typewriter
+sysconfig.local.inc.php
+\family default
+ then adjust to the local conditions.
  
 \end_layout
 
@@ -762,10 +834,20 @@ For example, so: $sysconf ['mysqldump'] = '/psenayan/mysql/bin/mysqldump.exe';
  Likewise with DB_USERNAME and DB_PASSWORD.
  Save the changes, then close your editor.
  Beginning from Senayan3-stable15, if you want to install SLiMS you do not
- need to change the configuration in the file sysconfig.inc.php, but do local
- database configuration in sysconfig.local.inc.php instead.
- The location of this file is the same as the location of the file sysconfig.inc.p
-hp.
+ need to change the configuration in the file 
+\family typewriter
+sysconfig.inc.php
+\family default
+, but do local database configuration in 
+\family typewriter
+sysconfig.local.inc.php
+\family default
+ instead.
+ The location of this file is the same as the location of the file 
+\family typewriter
+sysconfig.inc.php
+\family default
+.
  In Unix / Linux, the Apache web server must be able to write to the directories
  holding images and files.
  This can be done in two ways.
