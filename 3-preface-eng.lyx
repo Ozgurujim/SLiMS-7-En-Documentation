@@ -86,8 +86,8 @@ No furniture is so charming as books.
 \begin_layout Standard
 
 \lang bahasa
-SLiMS is Open Source Software (OSS) developed to meet the needs of web-based
- library automation, from small to large scale.
+SLiMS is web-based Open Source Software (OSS) developed to meet the requirements
+ of web-based library automation, from small to large scale.
  Because it is full-featured and still actively developed, SLiMS is suitable
  for libraries that have varied collections, several staff members and a
  networked environment, whether local network (intranet) or the Internet.
@@ -177,10 +177,9 @@ SLiMS version 1 and 2 were not released to the public because it was still
  being tested and was being refined.
  Since version 3, SLiMS has been considered stable enough to be released
  to the public and it is time-tested by the librarian community.
- Through review by the public and peer-to-peer feedback , Senayan will become
- even more stable software and its features more diverse, accommodating
- many needs.
- To view a demo and download Senayan software , visit
+ Through peer-to-peer review by the public , SLIMS will become even more
+ stable software and has more features that accommodating many needs.
+ To view a demo and download SLIMS software , visit 
 \begin_inset Flex URL
 status open
 
